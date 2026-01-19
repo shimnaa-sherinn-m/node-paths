@@ -1,0 +1,73 @@
+
+.navbar{
+    background-color: rgb(58, 58, 203);
+    color: white;
+    display: flex;
+    height: 4rem;
+    align-items: center;
+}
+.right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    padding-left: 5%;
+
+}
+.input{
+    /* height: 5rem; */
+    /* font-size: 1rem; */
+    width: 17rem;
+    color: rgb(74, 74, 165);
+    background-color: rgb(166, 209, 244);
+    border: none;
+    border-radius: 3px;
+    height: 1.5rem;
+}
+.soft{
+   color: white;
+   font-size: 1.8rem;
+   margin: 0;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+.add{
+    /* font-size: 1rem; */
+    cursor: pointer;
+    /* margin-left: 100%; */
+    gap: 70px;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(13, 13, 143);
+    border: none;
+    height: 3rem;
+    width: 9rem;
+    /* margin-right: 90%; */
+}
+.left{
+   padding-left: 40%; 
+}
+.card{
+    width: 280px;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-sizing: border-box;
+}
+.primary{
+    display: flex;
+  
+}
+.card{
+    width: 70rem;
+    margin-left: 7%;
+    margin-top: 3rem;
+}
+.btn btn-primary{
+width: 40%;
+background-color: rgb(194, 213, 207);
+}
